@@ -25,7 +25,8 @@
 .my-title {
     font-size: 4rem;
     font-weight: 900;
-    color: white;
+    color: black;
+    background-color: white
 
 }
 
@@ -37,8 +38,8 @@
 .my-subtitle {
     font-size: 1.25rem;
     font-weight: 400;
-    color: orangered;
-    background-color: white;
+    color: red;
+    background-color: red;
 
 }
 
@@ -64,4 +65,10 @@ color: orangered*/
 .my-strong {
     text-shadow: 5px 5px 15px #D43248;
 
+}
+
+.my-paragraph-text-small {
+    font-size: 1rem;
+    color: black;
+    background-color: white;
 }

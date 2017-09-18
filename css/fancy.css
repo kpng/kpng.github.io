@@ -1,1 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+
+* {
+    border: 1px ;
+}
+
+.my-div {
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+    
+}
+
