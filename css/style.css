@@ -1,0 +1,67 @@
+.nice{
+    background-color:yellow;    
+}
+
+#nicer{
+    color: blue;
+}
+
+.nicer{
+    font-weight: bold;
+}
+
+
+/*1. Make the background color dark gray: #212121*/
+.my-body {
+    background-color: darkgray; 
+    font-family: 'lato';
+
+}
+
+
+/*3. Enlarge the font size to: 4rem*/
+/*4. Thicken the font weight to: 900*/
+/*5. Change the text color to: white*/
+.my-title {
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+
+}
+
+
+/*6. Enlarge the font size to: 1.25rem*/
+/*7. Thicken the font weight to: 400*/
+/*8. Change the text color to: orangered*/
+/*9. Change the background color to: white*/
+.my-subtitle {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: orangered;
+    background-color: white;
+
+}
+
+
+
+/*10. Enlarge the font size to: 3rem*/
+/*11. Thin the font weight to: 100*/
+/*12. Change the text color to: white*/
+.my-paragraph {
+    font-size: 3rem;
+    font-weight: 100;
+    color: white;
+
+}
+
+
+
+/*13. add a text shadow with the following specs:
+horizontal offset: 2px
+vertical offset: 2px
+shadow blur: 0
+color: orangered*/
+.my-strong {
+    text-shadow: 5px 5px 15px #D43248;
+
+}
