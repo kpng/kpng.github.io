@@ -15,6 +15,8 @@
 .my-body {
     background-color: darkgray; 
     font-family: 'lato';
+    border-color: blue;
+    border-style: solid blue;
 
 }
 

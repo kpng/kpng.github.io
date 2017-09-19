@@ -9,11 +9,11 @@
 
 .my-container{
 /*2. Add a border of color: #aaa*/
-    border-style: hidden;
+    border-style: solid;
     border-color: #000;
 
 /*3. Change the background color to: white*/
-    background-color: white;
+    background-color: yellow;
 
 /*4. Set the max width to: 600px*/
     max-width: 600px;
@@ -29,6 +29,12 @@
 /*8. Create a shadow: 5px 5px 5px #aaa*/
     box-shadow: 5px 5px 5px #aaa;
 
+}
+
+.my-card-style{
+    border-style: solid;
+    border-color: black;
+    background-color: yellow;    
 }
 
 .my-highlight{
