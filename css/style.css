@@ -1,62 +1,77 @@
-.nice{
-    background-color:yellow;    
+.nice {
+    background-color: yellow;
 }
 
-#nicer{
+#nicer {
     color: blue;
 }
 
-.nicer{
+.nicer {
     font-weight: bold;
 }
 
 
 /*1. Make the background color dark gray: #212121*/
+
 .my-body {
-    background-color: darkgray; 
+    background-color: darkgray;
     font-family: 'lato';
     border-color: blue;
     border-style: solid blue;
-
 }
 
 
 /*3. Enlarge the font size to: 4rem*/
-/*4. Thicken the font weight to: 900*/
-/*5. Change the text color to: white*/
-.my-title {
-    font-size: 4rem;
-    font-weight: 900;
-    color: black;
-    background-color: white
 
+
+/*4. Thicken the font weight to: 900*/
+
+
+/*5. Change the text color to: white*/
+
+.my-title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    text-shadow: 3px 3px 5px black;
 }
 
 
 /*6. Enlarge the font size to: 1.25rem*/
+
+
 /*7. Thicken the font weight to: 400*/
+
+
 /*8. Change the text color to: orangered*/
+
+
 /*9. Change the background color to: white*/
+
 .my-subtitle {
     font-size: 1.25rem;
     font-weight: 400;
     color: red;
     background-color: red;
-
 }
-
 
 
 /*10. Enlarge the font size to: 3rem*/
+
+
 /*11. Thin the font weight to: 100*/
+
+
 /*12. Change the text color to: white*/
+
 .my-paragraph {
-    font-size: 3rem;
-    font-weight: 100;
-    color: white;
-
+    font-size: 1.2rem;
+    font-weight: 580;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    text-align: justify;    
+    
 }
-
 
 
 /*13. add a text shadow with the following specs:
@@ -64,13 +79,53 @@ horizontal offset: 2px
 vertical offset: 2px
 shadow blur: 0
 color: orangered*/
+
 .my-strong {
     text-shadow: 5px 5px 15px #D43248;
-
 }
 
 .my-paragraph-text-small {
     font-size: 1rem;
     color: black;
     background-color: white;
+}
+
+body, html{
+    height: 100%;
+}
+
+.my-parallax-profile-background-pix {
+    /* The image used */
+    /* background-image: url("https://i.pinimg.com/originals/e4/df/ee/e4dfee66add53fcaa5e0baa43e8cc3fa.jpg"); */
+    background-image: url("../img/metal.jpg");
+    
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.my-parallax-profile-front-pix{
+    background-image: url("http://vignette4.wikia.nocookie.net/marveldatabase/images/0/06/Iron_Man_Armor_Model_37.jpg/revision/latest?cb=20151111010601");
+    
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    //background-size: cover;
+    
+}
+
+.my-form-label{
+    color: greenyellow;
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-shadow: 1px 1px 3px black;
 }
