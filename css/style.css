@@ -66,9 +66,9 @@
 
 .my-paragraph {
     font-size: 1.3rem;
-    font-weight: 700;
-    color: gainsboro;
-    text-shadow: 1px 1px 1px black;
+    font-weight: 800;
+    color: lightgoldenrodyellow;
+    text-shadow: 1px 1px 3px black;
     text-align: justify;    
     
 }
@@ -111,8 +111,9 @@ body, html{
 
 
 .my-form-label{
-    color: greenyellow;
-    font-size: 1.25rem;
-    font-weight: 800;
+    color: lightskyblue;
+    font-size: 1.8rem;
+    font-weight: 900;
     text-shadow: 1px 1px 3px black;
 }
+
