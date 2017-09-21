@@ -1,4 +1,29 @@
-document.write("welcmmmmome");
+
+function beer(count) {
+    var takeBeer = count - 1;    
+    var beerText1;
+    var beerText2;
+
+    beerText1 = count;
+    beerText1 += " bottles of beer on the wall, ";
+    beerText1 += count;
+    beerText1 += " bottles of beer.\r";
+
+    document.write(beerText1+"<br>");
+
+    if(count==1){
+        document.writeln("Go to the store and buy some more, 99 bottles of beer on the wall.");
+    }
+    else{
+        document.writeln("Take one down and pass it around, "+ takeBeer + " bottles of beer on the wall."+"<p></p>");
+    }
+}
+
+for (i=99; i>0; i--){
+    beer(i);
+}
+
+
 /* 20-Sep-17 Exercise
 //create 5 variables
 var student_1 = "kongphui" ;

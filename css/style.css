@@ -65,10 +65,10 @@
 /*12. Change the text color to: white*/
 
 .my-paragraph {
-    font-size: 1.2rem;
-    font-weight: 580;
-    color: black;
-    text-shadow: 1px 1px 1px white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: gainsboro;
+    text-shadow: 1px 1px 1px black;
     text-align: justify;    
     
 }
@@ -97,31 +97,18 @@ body, html{
 .my-parallax-profile-background-pix {
     /* The image used */
     /* background-image: url("https://i.pinimg.com/originals/e4/df/ee/e4dfee66add53fcaa5e0baa43e8cc3fa.jpg"); */
-    background-image: url("../img/metal.jpg");
+    background-image: url("../img/metal.png");
     
     /* Set a specific height */
     height: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.my-parallax-profile-front-pix{
-    background-image: url("http://vignette4.wikia.nocookie.net/marveldatabase/images/0/06/Iron_Man_Armor_Model_37.jpg/revision/latest?cb=20151111010601");
-    
-    /* Set a specific height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: left;
-    background-repeat: no-repeat;
-    //background-size: cover;
-    
-}
 
 .my-form-label{
     color: greenyellow;
