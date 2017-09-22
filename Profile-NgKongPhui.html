@@ -17,7 +17,6 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!-- <link rel="stylesheet" href="css/03_container.css"> -->
 
-	 <script src="js/profile.js"></script> 
 </head>
 
 <body class="my-parallax-profile-background-pix">
@@ -31,7 +30,7 @@
 						customised software solutions, creating solutions on iOS devices, Mac and Window desktops. <br><br>With almost two
 						decades of experience in software development and testing, I have lived through numerous software development life
 						cycles, and also ran an education business teaching English and Mathematics to children, where my great patience with
-						kids was nurtured, and the ability to explain complex concepts in a simplified manner to the audience.
+						kids was nurtured, and gained the ability to explain complex concepts in a simplified manner.
 					</p>
 
 					<div class="form-group my-form-label">
@@ -41,7 +40,7 @@
 
 					<div class="form-group my-form-label">
 						<!-- <label for="email-id"></label> -->
-						<input type="text" name="EMAIL" id="email-id" placeholder="Enter your email" class="form-control input-lg">
+						<input type="email" name="EMAIL" id="email-id" placeholder="Enter your email" class="form-control input-lg">
 					</div>
 
 					<br>
@@ -50,10 +49,12 @@
 						<button type="submit" class="btn btn-block btn-danger">Get In Touch!</button> -->
 
 						<div class="form-group">
-							<button type="submit" class="btn btn-danger my-btn form-control" id="submit-id">Get In Touch!</button>                   
-							<div class="alert alert-danger alert-dismissible fade in" hidden id="alert-id">
+							<button type="submit" class="btn btn-danger my-btn form-control" id="submit-id" onclick="makeThankText()">Get In Touch!</button>                   
+							<div class="alert alert-danger alert-dismissible" hidden id="alert-id">
 								<button type="button" class="close" id="close-id"><span>&times;</span></button>
-								Thank you! Got your contact and we'll get in touch soon!
+								<!-- <p id="ackText">So great to make a new friend! <br> Got your contact and will get in touch soon!</p> -->
+								<p id="ackText"></p>
+								
 							</div>
 						</div>
 
@@ -65,10 +66,12 @@
 
 		</div>
 	</div>
-
-	<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
-	<script>type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
-	<script src="js/profile.js"></script> -->
+	
+	
 </body>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+<script src="js/profile.js"></script>
 
 </html>

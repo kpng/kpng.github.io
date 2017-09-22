@@ -1,3 +1,13 @@
+function makeThankText(){
+    var newFriendName="";
+    var newFriendEmail="";
+
+    newFriendName = document.getElementById("name-id").value;
+    newFriendEmail = document.getElementById("email-id").value;
+    document.getElementById("ackText").innerHTML = newFriendName + ", nice to have you as a new friend!"+"<br>"+"I shall contact you via email "+newFriendEmail ;
+}
+
+
 $(function () {
 
     // on submitting the form
@@ -9,6 +19,7 @@ $(function () {
         $(event.target.nodeName + ' :input').each(function () {
             sendData[this.name] = $(this).val();
         });
+        console.log(sendData);
 
         var posting = $.ajax({
             type: 'POST',
